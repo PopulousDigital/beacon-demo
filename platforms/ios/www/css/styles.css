@@ -1,0 +1,62 @@
+* {
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+html,body {
+  box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+  background: url(../img/bg.png) no-repeat center top;
+  background-size: 100%;
+  background-color: #ffcc00;
+	font-family: Helvetica, Arial, sans-serif;
+	-webkit-touch-callout: none;
+	-webkit-text-size-adjust: none;
+	-webkit-user-select: none;
+}
+header {
+  border-bottom: 1px solid #000;
+  height: 44px;
+  margin: 0;
+  padding: 0;
+  margin-top: 22px;
+}
+header button {
+  background: transparent;
+  border: 0;
+  border-left: 1px solid #000;
+  float: right;
+  height: 44px;
+  margin: 0;
+  padding: 0;
+  width: 44px;
+}
+header button img {
+  width: 100%;
+}
+header .menu {
+  border-top: 1px solid #000;
+  display: none;
+  list-style-type: none;
+  margin: 0;
+  position: absolute;
+  padding: 0;
+  right: 0;
+  top: 43px;
+}
+header .on {
+  background-color: rgba(0, 0, 0, .2);
+}
+header .menu .menu-item {
+  background-color: rgb(203, 162, 0);
+  border: 1px solid #000;
+  border-top: none;
+  padding: 10px 20px;
+}
+header .menu .menu-item a {
+  color: #000;
+  text-decoration: none;
+}
